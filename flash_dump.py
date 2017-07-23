@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/bin/env python2
 
 import time, sys, serial, os, struct
 
@@ -224,14 +224,5 @@ if len(sys.argv) == 6 and sys.argv[1] == 'DUMPBLOCK':
 
 	outfile.close()
 		
-#x = ser.read()          # read one byte
-#chipID = ser.readline()   # read a '\n' terminated line
-#print chipID
-#for currpos in range(0, 0x20000):
-#	ser.write('c')
-#	s = ser.read(2112)        # read up to 2048 bytes (timeout)
-#	open("mods_backup.bin","a+b").write(s)
-#	print currpos
-#print "DONE"
 
 ser.close()
