@@ -1,0 +1,5 @@
+*.bin
+*.trim
+*.bak
+*.BAK
+Debug
